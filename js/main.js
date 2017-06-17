@@ -54,27 +54,12 @@
 		
 		owl.owlCarousel({
 			items: 1,
-		    margin: 0,
-		    responsiveClass: true,
+		    margin: 10,
 		    loop: true,
 		    nav: true,
 		    dots: true,
 		    autoplay: true,
 		    smartSpeed: 500,
-			responsive:{
-				0:{
-					nav:false
-				},
-				480: {
-					nav:false
-				},
-				768:{
-					nav:false
-				},
-				1000:{
-					nav:true,
-				}
-			},
 		    navText: [
 		      "<i class='icon-arrow-left owl-direction'></i>",
 		      "<i class='icon-arrow-right owl-direction'></i>"
